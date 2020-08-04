@@ -7,7 +7,6 @@ class NewsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final storiesBloc = StoriesProvider.of(context);
-    storiesBloc.fetchTopIds();
 
     return Scaffold(
       appBar: AppBar(
